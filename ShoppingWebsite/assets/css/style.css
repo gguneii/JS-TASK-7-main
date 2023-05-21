@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header #categories a {
+  text-transform: capitalize;
+}
+
+#First .available {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 3rem 0 0;
+}
+#First .f-search {
+  margin-bottom: 5rem;
+}
+#First .f-search .form-control {
+  width: 85% !important;
+}
+
+#Second .card img {
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#Second .card #delBtn {
+  cursor: pointer;
+  color: rgb(96, 19, 19);
+  font-size: 25px;
+  margin: 0 10px 23px 0;
+}
+#Second #show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+#Second .special {
+  width: 60%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 4px 8px;
+  cursor: pointer;
+  color: azure;
+  background-color: goldenrod;
+}
+#Second .secondary {
+  width: 60%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 4px 8px;
+  cursor: pointer;
+  color: azure;
+  background-color: rgb(86, 82, 82);
+}
+#Second .pro {
+  border: 2px solid goldenrod;
+  color: goldenrod;
+}/*# sourceMappingURL=style.css.map */

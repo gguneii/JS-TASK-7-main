@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+@mixin specialCommon($backcolor){
+    width: 60%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px 8px ;
+    cursor: pointer;
+    color: azure;
+    background-color: $backcolor;
+}
+header{
+    #categories{
+        a{
+            text-transform: capitalize;
+        }
+    }
+}
+#First{
+    .available{
+        font-size: 18px;
+        font-weight: 500;
+        margin: 3rem 0 0;
+    }
+    .f-search{
+        margin-bottom: 5rem;
+        .form-control{
+            width:85%!important;
+        }
+    }
+}
+#Second{
+    .card{
+        img{
+            width: 100%;
+            height: 200px;
+            padding:20px;
+            object-fit: contain;
+        }
+        #delBtn{
+          cursor: pointer;
+          color: rgb(96, 19, 19);
+          font-size: 25px;
+          margin:0 10px 23px 0;
+        }
+    }
+    #show{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+    .special{
+        @include specialCommon(goldenrod)
+    }
+   .secondary{
+    @include specialCommon(rgb(86, 82, 82))
+   }
+   .pro{
+    border: 2px solid goldenrod;
+    color:goldenrod;
+   }
+}
